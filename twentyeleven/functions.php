@@ -138,8 +138,8 @@ function twentyeleven_setup() {
 		// This is all for compatibility with versions of WordPress prior to 3.4.
 		define( 'HEADER_TEXTCOLOR', $custom_header_support['default-text-color'] );
 		define( 'HEADER_IMAGE', '' );
-		define( 'HEADER_IMAGE_WIDTH', 753 ); //$custom_header_support['width'] );
-		define( 'HEADER_IMAGE_HEIGHT', 219 ); //$custom_header_support['height'] );
+		define( 'HEADER_IMAGE_WIDTH', 523 ); //$custom_header_support['width'] );
+		define( 'HEADER_IMAGE_HEIGHT', 177 ); //$custom_header_support['height'] );
 		add_custom_image_header( $custom_header_support['wp-head-callback'], $custom_header_support['admin-head-callback'], $custom_header_support['admin-preview-callback'] );
 		add_custom_background();
 	}
