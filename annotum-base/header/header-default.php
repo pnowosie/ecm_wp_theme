@@ -27,11 +27,9 @@ if (CFCT_DEBUG) { cfct_banner(__FILE__); }
 	<header id="header" class="act">
 		<div class="header-body">
 			<div class="in">
-				<?php if (anno_has_header_image()): ?>
-					<h1 id="site-name"><a href="<?php echo home_url(); ?>/" title="Home" rel="home"><?php anno_header_image(); ?></a></h1>
-				<?php else: ?>
-					<h1 id="site-name"><a href="<?php echo home_url(); ?>/" title="Home" rel="home"><?php bloginfo('name') ?></a></h1>
-				<?php endif; ?>
+				<h1 id="site-name"><a href="<?php echo home_url(); ?>/" title="Home" rel="home">
+					<img src="http://consensius.eu/wp-content/themes/annotum-base/img/logo_blue.png" width="350" alt="Europejskie Centrum Mediacji">
+				</a></h1>
 				<nav id="secondary-nav" class="clearfix">
 				<?php
 				$args = array(
